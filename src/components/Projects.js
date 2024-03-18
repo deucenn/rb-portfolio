@@ -1,5 +1,5 @@
 import { CodeIcon } from "@heroicons/react/solid"
-import { projects } from "../Data";
+import { projects } from "../Data.js";
 
 function Projects() {
     return (
