@@ -32,10 +32,10 @@ export const projects = [
 ];
 
 export const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TailwindCSS",
-    "Bootstrap",
-    "React"
-]
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TailwindCSS",
+  "Bootstrap",
+  "React",
+];
