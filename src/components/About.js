@@ -14,9 +14,10 @@ function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+            {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            Laborum, voluptas natus? */}
+            Building responsive and performant websites for the modern world.
           </p>
           <div className="flex justify-center space-x-4">
             <a href="https://github.com/deucenn" className="hover:text-gray-200 hover:text-lg">
@@ -37,7 +38,7 @@ function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src={require("../assets/hero-pic.jpg")}
           />
         </div>
       </div>
