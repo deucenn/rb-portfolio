@@ -5,7 +5,7 @@ import { pointsInner, pointsOuter } from "../utils";
 
 const ParticleRing = () => {
   return (
-    <div className="relative">
+    <div className="fixed">
       <Canvas
         camera={{
           position: [10, -7.5, -5],
