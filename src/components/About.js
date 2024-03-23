@@ -38,7 +38,7 @@ function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={require("../assets/hero-pic.jpg")}
+            src={"../assets/hero-pic.jpg"}
           />
         </div>
       </div>
