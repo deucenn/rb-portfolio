@@ -8,3 +8,4 @@ Visit at: [....](....)
 
 - React 
 - Tailwind
+- Netlify
