@@ -20,16 +20,28 @@ function About() {
             Building responsive and performant websites for the modern world.
           </p>
           <div className="flex justify-center space-x-4">
-            <a href="https://github.com/deucenn" className="hover:text-gray-200 hover:text-lg">
+            <a
+              href="https://github.com/deucenn"
+              className="py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 flex rounded-md px-3.5 py-2.5 text-xl font-semibold cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
+            >
               <FaGithub />
             </a>
-            <a href="https://www.instagram.com/raphabnhz/" className="hover:text-gray-200 hover:text-lg">
+            <a
+              href="https://www.instagram.com/raphabnhz/"
+              className="py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 flex rounded-md px-3.5 py-2.5 text-xl font-semibold cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
+            >
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/deucencs" className="hover:text-gray-200 hover:text-lg">
+            <a
+              href="https://twitter.com/deucencs"
+              className="py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 flex rounded-md px-3.5 py-2.5 text-xl font-semibold cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
+            >
               <FaXTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/raphael-bienholz-71562425a/" className="hover:text-gray-200 hover:text-lg">
+            <a
+              href="https://www.linkedin.com/in/raphael-bienholz-71562425a/"
+              className="py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 flex rounded-md px-3.5 py-2.5 text-xl font-semibold cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
+            >
               <FaLinkedinIn />
             </a>
           </div>

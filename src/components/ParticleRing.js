@@ -18,8 +18,6 @@ const ParticleRing = () => {
         <pointLight position={[-30, 0, -30]} power={10.0} />
         <PointCircle />
       </Canvas>
-
-
     </div>
   );
 };

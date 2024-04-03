@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
+import { DownloadIcon } from "@heroicons/react/solid";
 
 function Nav() {
   return (
@@ -18,11 +18,11 @@ function Nav() {
           </a>
         </nav>
         <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          href="./assets/resume.pdf"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 flex rounded-md px-3.5 py-2.5 text-sm font-semibold text-indigo-400 border-2 border-indigo-400 cursor-pointer rounded-md transition ease-in-out hover:-translate-y-1  hover:-translate-x-1 hover:shadow-custom"
         >
-          Contact Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
+          Resume
+          <DownloadIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
